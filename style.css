@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    margin-top: 20px;
+    background-color: rgb(245, 205, 205);
+    height: 70px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(106, 6, 6);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    color: rgb(4, 43, 102);
+    transition: .5s;
+
+}
+
+.head {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.logo {
+    position: relative;
+    bottom: 110px;
+    left: 700px;
+
+
+}
+
+.btn1 {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    bottom: 130px;
+    left: 850px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    bottom: 130px;
+    left: 590px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: 1px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: gainsboro;
+}
+
+.btn2:hover {
+    background-color: rgb(241, 64, 64);
+}
+
+.logocart {
+    margin: 12px;
+    position: relative;
+    bottom: 7px;
+}
+
